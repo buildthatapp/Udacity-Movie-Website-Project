@@ -2,8 +2,8 @@ import fresh_tomatoes
 import media
 
 toy_story = media.Movie(
-	"Toy Story", 
-	"Toys Come to Life",
+	"Toy Story",
+    "Toys Come to Life",
 	"toy_story.jpg",
 	"https://www.youtube.com/watch?v=KYz2wyBy3kc")
 
@@ -37,12 +37,7 @@ the_hunger_games = media.Movie(
 	"hunger_games.jpg",
 	"https://www.youtube.com/watch?v=mfmrPu43DF8")
 
-movies = [
-	toy_story,
-	avatar,
-	avengers_infinity_war,
-	school_of_rock,
-	ratatouille,
-	the_hunger_games]
-	
+movies = [toy_story, avatar, avengers_infinity_war,
+	school_of_rock, ratatouille, the_hunger_games]
+
 fresh_tomatoes.open_movies_page(movies)
